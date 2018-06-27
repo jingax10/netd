@@ -16,10 +16,10 @@
 BIN := netd
 
 # This repo's root import path (under GOPATH).
-PKG := github.com/GoogleCloudPlatform/netd
+PKG := github.com/jingax10/netd
 
 # Where to push the docker image.
-REGISTRY ?= gcr.io/google-containers
+REGISTRY ?= us.gcr.io/jinga-prod
 
 # Which architecture to build - see $(ALL_ARCH) for options.
 ARCH ?= amd64
